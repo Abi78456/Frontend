@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Bites</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: orange;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        /* Section */
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Menu */
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 250px;
+            margin: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .card p {
+            padding: 0 10px;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+        Welcome
+    </div>
+
+    <!-- About -->
+    <div class="section">
+        <h2>About Us</h2>
+        <p>We serve the best food with fresh ingredients and great taste.</p>
+    </div>
+
+    <!-- Menu -->
+    <div class="section">
+        <h2>Our Menu</h2>
+        <div class="menu">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+                <h3>Burger</h3>
+                <p>Juicy grilled burger with cheese</p>
+                <div class="price">₹199</div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65">
+                <h3>Pizza</h3>
+                <p>Delicious cheesy pizza</p>
+                <div class="price">₹299</div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1553621042-f6e147245754">
+                <h3>Pasta</h3>
+                <p>Creamy Italian pasta</p>
+                <div class="price">₹249</div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2026 Delicious Bites | All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
